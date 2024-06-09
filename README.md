@@ -1,2 +1,7 @@
-# site-corinthians
+# [ACESSAR SITE](https://arthurthuko.github.io/site-corinthians/)
 Projeto desenvolvido na disciplina de Introdução à Tecnologia WEB
+1º Período do curso de Sistema de Informação
+Centro Universitário do Rio São Francisco - Unirios
+Paulo Afonso (BA)
+
+Aluno: Arthur Henrique Silva Feitoza Correa
