@@ -1,0 +1,375 @@
+:root {
+    --cor-01: #fff;
+    --cor-02: #fcec0d;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--cor-01);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--cor-02);
+    border-radius: 50px;
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: url("../imagens/Imagem de Fundo/Arena_Corinthians.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 130%;
+    overflow-x: hidden;
+}
+
+header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000b6;
+}
+
+header img {
+    width: 10%;
+}
+
+header h1 {
+    display: inline-flex;
+    align-items: center;
+    color: var(--cor-01);
+    font-size: 300%;
+}
+
+header div {
+    width: 15%;
+    display: flow-root;
+}
+
+header div img {
+    width: 18%;
+    max-width: 18%;
+}
+
+nav {
+    background-color: #4e4e4e81;
+    display: flow-root;
+    margin-top: -4px;
+}
+
+nav ul {
+    display: table;
+    width: 100%;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: table-cell;
+    width: 12%;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--cor-02);
+    text-shadow: 0.1em 0.1em 0.1em #333;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.post {
+    background-color: #00000091;
+    width: 90%;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.post img {
+    margin: 17px;
+    width: 18%;
+    height: 100%;
+    float: left;
+}
+
+strong {
+    color: var(--cor-02);
+}
+
+h2, p {
+    color: var(--cor-01);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: var(--cor-01);
+    text-align: center;
+}
+
+.container {
+    display: flow-root;
+}
+
+.card {
+    display: grid;
+    justify-items: center;
+}
+
+.card img {
+    width: 19%;
+}
+
+.card ul {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bx-wrapper .bx-prev {
+    left: 10px;
+}
+
+.bx-wrapper .bx-next {
+    right: 10px;
+}
+
+.bx-wrapper .bx-prev:hover, .bx-wrapper .bx-next:hover {
+    background: #555;
+}
+
+.bx-wrapper .bx-pager {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-link {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: #333;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-link:hover, 
+.bx-wrapper .bx-pager .bx-pager-link.active {
+    background: #555;
+}
+
+#jogos {
+    height: 422px;
+    background-color: #00000091;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+#jogos h2{
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+#foto-autor {
+    height: 83%;
+    width: 29%;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #343a40;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.video-link {
+    color: #007bff;
+    text-decoration: none;
+}
+.video-link:hover {
+    text-decoration: underline;
+}
+
+#quiz-container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+#quiz .question {
+    margin-bottom: 20px;
+}
+
+#quiz .answers {
+    list-style-type: none;
+    padding: 0;
+}
+
+#quiz .answers li {
+    margin-bottom: 10px;
+}
+
+#submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #555;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+#results {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#r-s{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#minhas-redes{
+    width: 15%;
+    display: contents;
+}
+
+#minhas-redes img{
+    width: 147px;
+    transition: transform 0.3s ease;
+}
+
+#minhas-redes img:hover{
+    transform: scale(1.2);
+}
+
+#galeria-camisas{
+    display: inline-grid;
+    text-align: center;
+    width: 86%;
+    height: 90%;
+}
+
+#galeria-camisas .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+#galeria-camisas .container img {
+    width: 89%;
+    transition: all 0.2s linear;
+    height: 93%;
+}
+
+#galeria-camisas .container img:hover{
+    transform: scale(75%);
+}
+
+.conteudo {
+    display: flow-root;
+    width: 121%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#escalacao{
+    display: flow-root;
+    text-align: center;
+}
+
+.faixa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.faixa ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.faixa img{
+    width: 60%;
+    max-width: 250px;
+}
+
+footer {
+    color: var(--cor-01);
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    background-color: #00000091;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
